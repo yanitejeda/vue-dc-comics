@@ -1,0 +1,38 @@
+@import"variables.scss";
+
+.container{
+    max-width: $bigContainer;
+    width: $marginA;
+}
+
+.box-logo-header{
+    
+    width: 50px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+.header-box{
+    padding: $padding-y;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.list-group{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.singleB{
+    padding: $padding-x;
+}

@@ -1,0 +1,77 @@
+@import "variables.scss";
+
+.container{
+    max-width: $bigContainer;
+    margin: $marginA;
+    
+}
+
+.box{
+    padding: $padding-y;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-footer{
+
+    color: $color_white;
+    padding: $padding-y;
+
+    background-image: url(./assets/footer-bg.jpg);
+    
+
+    ul li{
+        font-size : 12px;
+        color: $color_lightBrown;
+        text-transform: lowercase;
+    }
+}
+
+.socialIcon{
+
+    li img{
+        padding: $padding-x;
+    }
+}
+
+
+.barFooter{
+    background-color: $footerbg;
+    padding: $padding-y;
+}
+
+.listGroup{
+    display: flex;
+    text-align: left;
+}
+.listGroupIon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.btn-b {
+    color: $color_blue;
+}
+
+.btn-footer{
+    border: 1px solid;
+    padding: 5px;
+    border-color: $color_blue;
+    background-color: $footerbg;
+    color: $color_white;
+}
+
+
+.logo-bg{
+background-image: url(./assets/dc-logo-bg.png);
+background-position: center;
+background-size: cover;
+width: 40%;
+
+}
+
+
